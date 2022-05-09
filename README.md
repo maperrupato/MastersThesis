@@ -13,3 +13,9 @@
   
        2.1) ModelOpenBi_subsidy.rs: RISE model's script
        2.2) FisLim_steadyStateFile: DSGE steady state file
+       
+3) Auxiliary codes - Not used yet
+
+       3.1) fFiscalLimit_mu: Function that returns Fiscal Limit's mu for a given state vector
+       3.2) fFiscalLimit_std: Function that returns Fiscal Limit's std for a given state vector
+       3.3) fFiscalLimit_Prob: Function that returns Fiscal Limit's probability (c.d.f) for a given state vector
