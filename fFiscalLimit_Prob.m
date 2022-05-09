@@ -1,0 +1,6 @@
+function prob = fFiscalLimit_Prob(bValue, x1,x2)
+
+prob = normcdf(bValue, ...
+                    fFiscalLimit_mu(x1,x2), ...
+                    fFiscalLimit_std(x1,x2));                           
+end
